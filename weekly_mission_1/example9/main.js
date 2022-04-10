@@ -1,5 +1,22 @@
 // Importando la clase MyLogger
-import MyLogger from './logger.js'
+const Pokemon = require('./pokemon')
 
-const logger = new MyLogger('info')
-logger.log('Hello World')
+const pikachu = new Pokemon("pikachu")
+const bulbasaur = new Pokemon("bulbasaur")
+const squirtle = new Pokemon("squirtle")
+const charmander = new Pokemon("charmander")
+
+pikachu.sayHello()
+pikachu.sayMessage("Heey!")
+
+bulbasaur.sayHello()
+bulbasaur.sayMessage("Heey!")
+
+charmander.sayHello()
+charmander.sayMessage("Heey!")
+
+squirtle.sayHello()
+squirtle.sayMessage("Heey!")
+
+
+

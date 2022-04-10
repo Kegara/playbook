@@ -1,6 +1,7 @@
 {
   "name": "esm-syntax",
   "version": "1.0.0",
+  "description": "",
   "main": "main.js",
   "type": "module",
   "scripts": {
@@ -8,6 +9,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": ""
+  "license": "ISC"
 }
