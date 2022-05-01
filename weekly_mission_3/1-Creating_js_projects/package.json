@@ -1,0 +1,20 @@
+{
+  "name": "my_launchx_app",
+  "version": "1.0.0",
+  "description": "Creating new js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "keywords": [
+    "JS",
+    "NPM",
+    "LAUNCHX"
+  ],
+  "author": "kegara",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
