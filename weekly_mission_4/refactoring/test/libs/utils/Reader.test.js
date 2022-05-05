@@ -1,10 +1,9 @@
-const fs = require("fs");
-class Reader {
-    // Part 1 Read json file ===========================
-    static readJsonFile(filePath) {
-        const rawdata = fs.readFileSync(filePath);
-        const explorers = JSON.parse(rawdata);
-        return explorers;
+const Reader = require("../../../app/libs/utils/Reader");
+
+describe("Reader", () => {
+    test("prueba de valores", () => {
+        const result = Reader.readJsonFile("explorers.json");
+        expect(result.length).toBe(15);
     }
-}
-module.exports = Reader;
+    );
+});
